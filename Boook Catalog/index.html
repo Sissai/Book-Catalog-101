@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Book Catalog</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>የመጻሕፍት መደብር</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <!-- <li><a href="#">All Books</a></li> -->
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="book-list">
+        <article class="book-row">
+          <div class="book-image">
+            <img
+              src="images/Book cover (1).jpg"
+              width="200"
+              alt="Book Cover 1" />
+          </div>
+          <div class="book-details">
+            <h2>የዮሓንስ ወንጌል</h2>
+            <p><strong>ፀሃፊ:</strong> ቅዱስ ዮሓንስ አፈወርቅ</p>
+            <p><strong>ተርጓሚ:</strong> ዲ/ን ሽመልስ መርጊያ</p>
+            <p><strong>ብዛት:</strong> 1</p>
+            <p><strong>አቅርቦት:</strong> አለ</p>
+          </div>
+          <div class="book-action">
+            <button>መዋስ እፍልጋለው</button>
+          </div>
+        </article>
+
+        <article class="book-row">
+          <div class="book-image">
+            <img
+              src="images/Book cover (2).jpg"
+              width="200"
+              alt="Book Cover 1" />
+          </div>
+          <div class="book-details">
+            <h2>መዝሙረ ዳዊት (ንባቡ ከነትርጓሜው)</h2>
+            <p><strong>ፀሃፊ:</strong></p>
+            <p><strong>ተርጓሚ:</strong></p>
+            <p><strong>ብዛት:</strong> 1</p>
+            <p><strong>አቅርቦት:</strong> አለ</p>
+          </div>
+          <div class="book-action">
+            <button>መዋስ እፍልጋለው</button>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 My Book Catalog. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
+
+<!-- 
+ <button id="sendTextButton">Send Text</button>
+
+    <script>
+        document.getElementById('sendTextButton').addEventListener('click', function () {
+            const phoneNumber = "1234567890"; // Replace with the actual number
+            const carrierGateway = "@vtext.com"; // Replace with the correct SMS gateway
+            const messageBody = "Hello, this is your message!";
+
+            const mailtoLink = `mailto:${phoneNumber}${carrierGateway}?subject=Text%20Message&body=${encodeURIComponent(messageBody)}`;
+            window.location.href = mailtoLink;
+        });
+    </script> -->
